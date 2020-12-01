@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #0a3470;
+    border-bottom: 1px solid #072c5f;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo a {
+    display: block;
+    background-image: url(assets/logo.png);
+    background-size: cover;
+    width: 280px;
+    height: 70px;
+}
+
+.main-menu {
+    width: 250px;
+}
+
+.main-menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+
+.main-menu li {
+    list-style-type: none;
+}
+
+.main-menu a {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.main-menu a:hover {
+    color: #AA6B00;
+}
+
+.frst-screen {
+    width: 100%;
+    height: 750px;
+    background-image: url(assets/annie-spratt-hrqMHFKC6g8-unsplash.jpg);
+    background-size: cover;
+}
+
+.wrapper-frst-screen {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.frst-screen span {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.frst-screen h1 {
+    color: white;
+    padding-top: 150px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.buttons {
+    margin: 200px 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frst-screen a {
+    font-family: "Open Sans", sans-serif;
+    background: #0a3470;
+    padding: 17px 15px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.frst-screen a:hover {
+    background: #072146;
+}
+
+.about-author {
+    display: flex;
+    background-color: #0a3470;
+    border-bottom: 1px solid #072c5f;
+    border-top: 1px solid #072c5f;
+}
+
+.portrait {
+    width: 600px;
+    height: 500px;
+    background-image: url(assets/author.jpg);
+    background-size: cover;
+}
+
+h2 {
+    padding-top: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.author-biography-text {
+    display: flex;
+    padding-left: 200px;
+    margin-top: 80px;
+}
+
+.author-biography-text ul {
+    width: 400px;
+}
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.author-biography-text li {
+    font-weight: 200;
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.author-education-wrapper {
+    padding-right: 50px;
+}
+
+.annotation {
+    margin: 50px auto 100px;
+}
+
+.annotation p {
+    font: 16px/1.78 "Open Sans", sans-serif;
+    color: #555;
+}
+
+.with-margin {
+    margin-top: 20px;
+}
+
+.content {
+    margin: 0 auto 100px;
+}
+
+.content h2 {
+    color: black;
+}
+
+.main-content {
+    width: 630px;
+    margin: 50px auto 0;
+}
+
+.main-content li {
+    line-height: 130%;
+    padding-bottom: 5px;
+}
+
+.teoria,
+.material {
+    padding-bottom: 0;
+}
+
+.publications,
+.first-theme {
+    padding: 5px 0 0;
+}
+
+.nested-list-1-level {
+    margin-left: 20px;
+}
+
+.nested-list-2-level {
+    margin-left: 20px;
+}
+
+.no-type {
+    list-style-type: none;
+}
+
+.main-content a {
+    text-decoration: underline;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.main-content a:hover {
+    color: #0a3470;
+}
+
+footer {
+    background-color: #0a3470;
+    padding: 20px 0;
+}
+
+
+/*header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+nav>ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+}
+
+nav li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav>ul>li>a {
+    font: 600 14px/14px "Open Sans", sans-serif, tahoma;
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #656e79;
+    padding: 17px 50px;
+    font-size: 16px;
+}
+
+nav>ul>li>a:hover {
+    color: black;
+}
+
+.frst-screen {
+    width: 100%;
+    background-color: #CEE5F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frst-screen span {
+    font-family: 'PT Sans', 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+.frst-screen h1 {
+    font: 700 35px/1.13 'PT Sans', 'Roboto', sans-serif;
+    margin-top: 50px;
+    color: #272727;
+    line-height: 200%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.frst-screen .buttons {
+    margin-top: 150px;
+    padding-bottom: 50px;
+    width: 50%;
+    display: flex;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.frst-screen a {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font: 500 16px "Roboto", tahoma, arial;
+    display: inline-block;
+    background-color: #7C98B3;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 17px 45px;
+    color: white;
+    font-size: 16px;
+}
+
+.frst-screen a:hover {
+    background-color: #536B78;
+}*/
+
+
+/*.with-margin {
+    margin-top: 20px;
+}
+
+.about-author {
+    width: 80%;
+    margin: 50px auto 100px;
+}
+
+.author-biography {
+    margin-top: 40px;
+    display: flex;
+    font: 16px/1.78 "Open Sans", sans-serif, tahoma;
+    color: #555;
+}
+
+h2 {
+    font: 700 34px/1.29 "PT Sans", "Roboto", sans-serif;
+    text-align: center;
+    color: #536B78;
+}
+
+h3 {
+    font: 600 20px 'PT Sans', 'Roboto', sans-serif;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.author-courses {
+    margin-top: 20px;
+}
+
+.author-biography-text {
+    margin-left: 50px;
+}
+
+.author-biography-text li {
+    list-style-type: none;
+}*/
