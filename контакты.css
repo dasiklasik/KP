@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #0a3470;
+    border-bottom: 1px solid #072c5f;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo a {
+    display: block;
+    background-image: url(assets/logo.png);
+    background-size: cover;
+    width: 280px;
+    height: 70px;
+}
+
+.main-menu {
+    width: 250px;
+}
+
+.main-menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+
+.main-menu li {
+    list-style-type: none;
+}
+
+.main-menu a {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.main-menu a:hover {
+    color: #AA6B00;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 60px;
+}
+
+.contacts-wrapper {
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts-info {
+    width: 50%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #0a3470;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.developer p {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}

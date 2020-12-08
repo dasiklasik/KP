@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="обратнаяСвязь.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper header-wrapper">
+            <div class="logo">
+                <a href="index.html"></a>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li>
+                        <a href="обратнаяСвязь.html">Обратная связь</a>
+                    </li>
+                    <li>
+                        <a href="контакты.html">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Обратная связь</h2>
+        <form action="#">
+            <label for="aboutBook">
+                Оставьте отзыв на книгу: <br>
+                <textarea name="aboutBook" id="aboutBook" cols="100" rows="10"></textarea>
+            </label>
+            <label for="aboutSite" id="secondLabel">
+                Оставьте отзыв на сайт: <br>
+                <textarea name="aboutSite" id="aboutSite" cols="100" rows="10"></textarea>
+            </label>
+            <button id="submit">Отправить</button>
+        </form>
+        <div id="afterSubmit" class="after-submit">
+            <h3>Спасибо за отзыв</h3>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper footer-wrapper">
+            <div class="logo">
+                <a href="index.html"></a>
+            </div>
+            <div class="developer">
+                <p>Разработано Мариной Макарчук</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="submit.js"></script>
+</body>
+
+</html>
