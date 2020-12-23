@@ -7,7 +7,7 @@ submitBtn.addEventListener('click', function(e) {
 
 });
 
-function displayThanks(argument) {
+function displayThanks() {
     document.getElementById('afterSubmit').style.display = 'block';
     document.querySelector('form').style.display = 'none';
     document.querySelector('h2').style.display = 'none';

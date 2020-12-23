@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/*Шапка*/
+
 header {
     width: 100%;
     background-color: #0a3470;
@@ -54,6 +57,9 @@ header {
 .main-menu a:hover {
     color: #AA6B00;
 }
+
+
+/*Конец шапки*/
 
 .hamburger {
     position: fixed;
@@ -232,7 +238,9 @@ h2 {
     margin-bottom: 30px;
 }
 
-.wrapper-biography {}
+.wrapper-biography {
+    margin-bottom: 50px;
+}
 
 .about-author span {
     font-family: "Open Sans", sans-serif;
